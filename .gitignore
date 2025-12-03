@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Data (Too large for GitHub)
+data/
+archive_bee_audio_project/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+venv/
+env/

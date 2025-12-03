@@ -1,0 +1,34 @@
+================================================================================
+ITF22 ASSIGNMENT 5.1 - PREPROCESSING REPORT
+================================================================================
+Generated: 2025-12-04 01:23:41
+
+ORIGINAL DATASET:
+  Rows: 401869
+  Columns: 2
+  Missing values: 3
+
+PREPROCESSING STEPS PERFORMED:
+  1. [OK] Parsed timestamps from string to datetime
+  2. [OK] Sorted data chronologically
+  3. [OK] Handled missing values (interpolation)
+  4. [OK] Cleaned data (removed duplicates, checked outliers)
+
+FINAL DATASET:
+  Rows: 401786
+  Columns: 2
+  Missing values: 0
+  Date range: 2017-01-01 05:00:00 to 2017-12-31 05:10:00
+
+SUMMARY STATISTICS:
+                           timestamp    temperature
+count                         401786  401786.000000
+mean   2017-07-02 05:41:33.281000192      18.482601
+min              2017-01-01 05:00:00    -227.144909
+25%              2017-04-02 06:00:00       9.510000
+50%              2017-07-02 06:00:00      17.182000
+75%              2017-10-01 06:00:00      28.242000
+max              2017-12-31 05:10:00      57.362000
+std                              NaN      11.203830
+
+================================================================================
