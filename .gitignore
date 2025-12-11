@@ -5,7 +5,6 @@ __pycache__/
 *.log
 
 # Data (Too large for GitHub)
-data/
 archive_bee_audio_project/
 
 # IDE
