@@ -1,0 +1,2 @@
+Model,Input_Type,Accuracy,F1_Score
+Fully Connected DNN,Raw Data,98.47%,0.7927
