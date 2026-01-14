@@ -1,2 +1,0 @@
-Model,Input_Type,Sequence_Length,Accuracy,Precision,Recall,F1_Score
-LSTM,Raw Sequential Data,15,99.63%,0.9967,0.9768,0.9862

@@ -2,15 +2,82 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.log
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Data (Too large for GitHub)
-archive_bee_audio_project/
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Environment
-venv/
-env/
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (keep structure but ignore large files)
+data/raw/**/*.csv
+data/raw/**/*.wav
+data/raw/**/*.mp3
+data/raw/**/*.lab
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Models
+models/saved_models/*.h5
+models/saved_models/*.pkl
+models/saved_models/*.joblib
+models/saved_models/*.pb
+
+# Results
+results/figures/*.png
+results/figures/*.jpg
+results/tables/*.csv
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.docx
+*.pdf
+preprocessing_report.txt
+deliverable_3_results.csv
+deliverable_3_visualizations/
+deliverable_5_2_outputs/
+deliverable_2/deliverable_5_2_outputs/
+
+# Archive
+archive_bee_audio_project/
