@@ -51,15 +51,22 @@ data/processed/*.csv
 # Models
 models/saved_models/*.h5
 models/saved_models/*.pkl
-models/saved_models/*.joblib
 models/saved_models/*.pb
+!models/saved_models/feature_columns.json
+!models/saved_models/label_metadata.json
 
 # Results
 results/figures/*.png
-results/figures/*.jpg
 results/tables/*.csv
 !results/figures/.gitkeep
 !results/tables/.gitkeep
+!results/figures/rf_confusion_matrix.png
+!results/figures/rf_feature_importances.png
+!results/tables/classical_ml_results.csv
+!results/tables/rf_feature_importances.csv
+
+# Demo data
+!data/demo/
 
 # Logs
 *.log

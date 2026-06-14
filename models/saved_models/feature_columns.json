@@ -1,0 +1,9 @@
+[
+  "temp_std",
+  "temp_range",
+  "temp_diff",
+  "temp_skew",
+  "hour_sin",
+  "hour_cos",
+  "weekday"
+]

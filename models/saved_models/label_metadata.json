@@ -1,0 +1,12 @@
+{
+  "model_version": 2,
+  "n_classes": 3,
+  "method": "fixed",
+  "low_threshold": 18.0,
+  "high_threshold": 32.0,
+  "class_names": {
+    "0": "Low Temperature",
+    "1": "Normal Temperature",
+    "2": "High Temperature"
+  }
+}
